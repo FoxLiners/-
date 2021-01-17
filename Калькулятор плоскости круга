@@ -1,0 +1,17 @@
+using System;
+
+namespace calkulator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the radius of the circle for subtraction");
+            const double pi = 3.14;
+            double radious = double.Parse(Console.ReadLine());
+            var sum = (pi * (radious * radious));
+            Console.WriteLine(sum);
+            Console.ReadLine();
+        }
+    }
+}
